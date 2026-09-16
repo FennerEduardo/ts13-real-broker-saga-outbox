@@ -1,0 +1,116 @@
+{
+  "asyncapi": "2.6.0",
+  "info": {
+    "title": "Verificación de Outbox Pattern y Reduplicación con RabbitMQ Real AsyncAPI Specification",
+    "version": "1.0.0",
+    "description": "Auto-generated AsyncAPI events for Verificación de Outbox Pattern y Reduplicación con RabbitMQ Real from Gherkin feature spec."
+  },
+  "defaultContentType": "application/json",
+  "channels": {
+    "verificacindeoutboxpatternyreduplicacinconrabbitmqreal/events/orderoutbox": {
+      "bindings": {
+        "rabbitmq": {
+          "is": "routingKey",
+          "queue": {
+            "name": "verificacindeoutboxpatternyreduplicacinconrabbitmqreal.orderoutbox.queue",
+            "durable": true,
+            "exclusive": false,
+            "autoDelete": false
+          },
+          "bindingVersion": "0.2.0"
+        },
+        "kafka": {
+          "topic": "verificacindeoutboxpatternyreduplicacinconrabbitmqreal.orderoutbox",
+          "partitions": 3,
+          "replicas": 2,
+          "bindingVersion": "0.3.0"
+        }
+      },
+      "publish": {
+        "summary": "Publish orderoutbox event",
+        "message": {
+          "name": "orderoutbox",
+          "correlationId": {
+            "description": "Correlation ID set in the header",
+            "location": "$message.header#/correlationId"
+          },
+          "headers": {
+            "type": "object",
+            "properties": {
+              "correlationId": {
+                "type": "string",
+                "format": "uuid",
+                "description": "Correlation ID for distributed tracing"
+              },
+              "causationId": {
+                "type": "string",
+                "format": "uuid",
+                "description": "ID of the event/command that caused this event"
+              },
+              "schemaVersion": {
+                "type": "string",
+                "default": "1.0"
+              },
+              "retryCount": {
+                "type": "integer",
+                "default": 0
+              },
+              "dlqReason": {
+                "type": "string",
+                "description": "Reason for moving to DLQ (if applicable)"
+              }
+            },
+            "required": [
+              "correlationId",
+              "schemaVersion"
+            ]
+          },
+          "payload": {
+            "type": "object",
+            "properties": {
+              "eventId": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "occurredOn": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "eventType": {
+                "type": "string",
+                "enum": [
+                  "orderoutbox"
+                ]
+              },
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "outbox": {
+                    "type": "string"
+                  },
+                  "cola": {
+                    "type": "string"
+                  },
+                  "como": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "outbox",
+                  "cola",
+                  "como"
+                ]
+              }
+            },
+            "required": [
+              "eventId",
+              "occurredOn",
+              "eventType",
+              "payload"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

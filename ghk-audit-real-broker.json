@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-09-16T14:25:59.901Z",
+  "createdBy": "gherkin-ai-cli",
+  "artifacts": [
+    {
+      "filePath": "ADR-001-architecture-decisions.md",
+      "type": "other",
+      "checksum": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117"
+    },
+    {
+      "filePath": "openapi.json",
+      "type": "openapi",
+      "checksum": "a8ebe449194d0d2ddc30995a5428e60822c9a037aa2b798da4af0a82ea6244ec"
+    },
+    {
+      "filePath": "contracts.ts",
+      "type": "contract",
+      "checksum": "7afa30366d71cb3f4a31cb818be7c709b3b592d8ab5ee033963f683cbe050e0c"
+    },
+    {
+      "filePath": "asyncapi.json",
+      "type": "contract",
+      "checksum": "4637279ab473024584cbc1117ae356a4cc533f88b356910d063916efd97ad075"
+    },
+    {
+      "filePath": "package.json",
+      "type": "config",
+      "checksum": "e66bca4188fd1c69ecef0cc58ed277cf9afebcd4485538dd9a6cc919641af617"
+    },
+    {
+      "filePath": "fixtures.ts",
+      "type": "fixture",
+      "checksum": "cfdeace325a16093cd4c4f334f29e22aca25b739748bb7ca0434d3d2ba6a4c64"
+    },
+    {
+      "filePath": "seed.sql",
+      "type": "fixture",
+      "checksum": "6f0a907e0d88cecc67920cda62746909027fde1ba89b082325f340df43265faa"
+    },
+    {
+      "filePath": "test/steps/verificaci-n-de-outbox-pattern-y-reduplicaci-n-con-rabbitmq-real.steps.ts",
+      "type": "test",
+      "checksum": "991c0a06d01656541514384f6aba8785117e223d36d33592b8eb124283892adc"
+    },
+    {
+      "filePath": "prisma/schema.prisma",
+      "type": "other",
+      "checksum": "29d8ba9d1b8ff26d2089ad98f493fff86c28c22b01f0a60d336894b0d26b6570"
+    },
+    {
+      "filePath": "src/persistence/verificacindeoutboxpatternyreduplicacinconrabbitmqreal.repository.ts",
+      "type": "other",
+      "checksum": "5237d39bdcb1d653f4c9e22ba68a1ae020f74a21609429f45d6db6cec8dbf62b"
+    },
+    {
+      "filePath": "docker-compose.yml",
+      "type": "config",
+      "checksum": "3d333491e1783a3905467f18034baf72d05a363cb304137b1b096b260f6781be"
+    },
+    {
+      "filePath": ".env.example",
+      "type": "config",
+      "checksum": "62f6df723b7caf480434ee4dcb048fbe681b2942023a48fccee589ef036195b4"
+    },
+    {
+      "filePath": "infrastructure/lib/real-event-broker-saga-outbox-stack.ts",
+      "type": "config",
+      "checksum": "ec910dafb0f78145f585c9c448b6bd4efde40ecb0b1bbbbbea5bf3a9767f15cc"
+    },
+    {
+      "filePath": "infrastructure/cdk.json",
+      "type": "config",
+      "checksum": "8c5a331906e692971a3a65e295856c3a8d4b44bf8502945921978639eec110be"
+    },
+    {
+      "filePath": "infrastructure/package.json",
+      "type": "config",
+      "checksum": "be55df82c7dbe4eef44ccdba5d8aaf7696a67326b07272942c19e820e17eb838"
+    },
+    {
+      "filePath": "prompts/domain-agent.md",
+      "type": "prompt",
+      "checksum": "a0cedb316a97a3f406299fc563286ca87208a4e69d58897375b7b06f5bb911b0"
+    },
+    {
+      "filePath": "prompts/backend-agent.md",
+      "type": "prompt",
+      "checksum": "027b95bcf6cee8432c89e5f28a847c0a24b69dcf0344613f3ab0451a441e9b79"
+    },
+    {
+      "filePath": "prompts/qa-agent.md",
+      "type": "prompt",
+      "checksum": "44ddb959413d7decac412019cb9aa7881ef1043671f33346a3adb2fc0b382c66"
+    }
+  ]
+}

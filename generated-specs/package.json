@@ -1,0 +1,11 @@
+{
+  "name": "real-event-broker-saga-outbox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {}
+}

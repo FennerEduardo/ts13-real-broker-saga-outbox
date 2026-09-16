@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: ghk_user
+      RABBITMQ_DEFAULT_PASS: ghk_secret
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: transactional_db
+      POSTGRES_USER: ghk_db_user
+      POSTGRES_PASSWORD: ghk_db_password
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ghk_db_user -d transactional_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 5
+
+  app-test-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    environment:
+      BROKER_URL: "amqp://ghk_user:ghk_secret@rabbitmq:5672"
+      DATABASE_URL: "postgres://ghk_db_user:ghk_db_password@postgres:5432/transactional_db"
