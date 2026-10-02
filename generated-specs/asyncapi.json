@@ -7,12 +7,12 @@
   },
   "defaultContentType": "application/json",
   "channels": {
-    "verificacindeoutboxpatternyreduplicacinconrabbitmqreal/events/orderoutbox": {
+    "verificaciondeoutboxpatternyreduplicacionconrabbitmqreal/events/orderoutbox": {
       "bindings": {
         "rabbitmq": {
           "is": "routingKey",
           "queue": {
-            "name": "verificacindeoutboxpatternyreduplicacinconrabbitmqreal.orderoutbox.queue",
+            "name": "verificaciondeoutboxpatternyreduplicacionconrabbitmqreal.orderoutbox.queue",
             "durable": true,
             "exclusive": false,
             "autoDelete": false
@@ -20,7 +20,7 @@
           "bindingVersion": "0.2.0"
         },
         "kafka": {
-          "topic": "verificacindeoutboxpatternyreduplicacinconrabbitmqreal.orderoutbox",
+          "topic": "verificaciondeoutboxpatternyreduplicacionconrabbitmqreal.orderoutbox",
           "partitions": 3,
           "replicas": 2,
           "bindingVersion": "0.3.0"

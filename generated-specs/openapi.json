@@ -9,7 +9,7 @@
     "/api/v1/verificaci-n-de-outbox-pattern-y-reduplicaci-n-con-rabbitmq-real": {
       "post": {
         "summary": "POST /api/v1/verificaci-n-de-outbox-pattern-y-reduplicaci-n-con-rabbitmq-real",
-        "operationId": "unknownVerificacindeOutboxPatternyReduplicacinconRabbitMQReal",
+        "operationId": "unknownVerificacionDeOutboxPatternYReduplicacionConRabbitMqReal",
         "security": [],
         "requestBody": {
           "required": true,
