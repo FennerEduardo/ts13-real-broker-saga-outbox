@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal } from '@prisma/client';
+import type { VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal } from '@prisma/client';
 
 @Injectable()
 export class VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealRepository {
