@@ -30,8 +30,8 @@ export interface Event1 extends IDomainEvent {
 // 2. Command DTO Schemas (Zod Validation)
 // --------------------------------------------------------------------------
 export const VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealCommandSchema = z.object({
-  requestId: z.string().uuid(),
-  timestamp: z.string().datetime(),
+  requestId: z.uuid(),
+  timestamp: z.iso.datetime(),
   payload: z.object({
     outbox: z.string(),
     cola: z.string(),
