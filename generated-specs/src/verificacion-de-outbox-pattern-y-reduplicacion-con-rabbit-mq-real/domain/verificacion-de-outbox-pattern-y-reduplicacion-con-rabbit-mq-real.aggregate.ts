@@ -34,6 +34,14 @@ export class VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealAggregate {
     if (!id || !id.trim()) throw new DomainValidationError('VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal id is required');
   }
 
+  /** Rebuilds an aggregate from persisted state; no events are recorded. */
+  static restore(id: string, state: VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealState, version: number): VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealAggregate {
+    const aggregate = new VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealAggregate(id);
+    aggregate._state = state;
+    aggregate._version = version;
+    return aggregate;
+  }
+
   get state(): VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealState {
     return this._state;
   }
