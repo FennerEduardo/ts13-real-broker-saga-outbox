@@ -15,7 +15,7 @@ export interface Topology {
 export function topology(prefix = 'verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real'): Topology {
   return { exchange: `${prefix}.events`, queue: `${prefix}.consumer`, dlx: `${prefix}.dlx`, dlq: `${prefix}.dlq` };
 }
-export const DEFAULT_TOPOLOGY: Topology = {"exchange":"verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.events","queue":"verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.consumer","dlx":"verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.dlx","dlq":"verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.dlq"};
+export const DEFAULT_TOPOLOGY: Topology = {"exchange":"real-event-broker-saga-outbox.events","queue":"real-event-broker-saga-outbox.consumer","dlx":"real-event-broker-saga-outbox.dlx","dlq":"real-event-broker-saga-outbox.dlq"};
 
 /** Topic exchange -> consumer queue, which dead-letters rejected messages to a fanout DLX -> DLQ. */
 export async function declareTopology(channel: Channel, t: Topology = DEFAULT_TOPOLOGY): Promise<void> {

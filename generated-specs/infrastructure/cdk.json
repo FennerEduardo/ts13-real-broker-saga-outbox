@@ -1,3 +1,0 @@
-{
-  "app": "npx ts-node bin/real-event-broker-saga-outbox.ts"
-}

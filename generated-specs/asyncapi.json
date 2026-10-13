@@ -1,9 +1,9 @@
 {
   "asyncapi": "2.6.0",
   "info": {
-    "title": "Verificación de Outbox Pattern y Reduplicación con RabbitMQ Real AsyncAPI Specification",
+    "title": "real-event-broker-saga-outbox Events",
     "version": "1.0.0",
-    "description": "Auto-generated AsyncAPI events for Verificación de Outbox Pattern y Reduplicación con RabbitMQ Real from Gherkin feature spec."
+    "description": "Events of real-event-broker-saga-outbox, merged from 1 feature contract(s) in contracts/."
   },
   "defaultContentType": "application/json",
   "channels": {
@@ -90,15 +90,11 @@
                   },
                   "cola": {
                     "type": "string"
-                  },
-                  "como": {
-                    "type": "string"
                   }
                 },
                 "required": [
                   "outbox",
-                  "cola",
-                  "como"
+                  "cola"
                 ]
               }
             },

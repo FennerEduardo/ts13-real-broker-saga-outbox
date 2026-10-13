@@ -12,10 +12,9 @@ datasource db {
 
 model VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal {
   id String @id @default(uuid())
-  tenantId String @default("default")
+  tenantId String
   outbox String
   cola String
-  como String
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
