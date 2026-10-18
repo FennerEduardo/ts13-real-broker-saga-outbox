@@ -6,9 +6,9 @@
     "description": "Service API of real-event-broker-saga-outbox, merged from 1 feature contract(s) in contracts/."
   },
   "paths": {
-    "/api/v1/verificaci-n-de-outbox-pattern-y-reduplicaci-n-con-rabbitmq-real": {
+    "/api/v1/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real": {
       "post": {
-        "summary": "POST /api/v1/verificaci-n-de-outbox-pattern-y-reduplicaci-n-con-rabbitmq-real",
+        "summary": "POST /api/v1/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real",
         "operationId": "unknownVerificacionDeOutboxPatternYReduplicacionConRabbitMqReal",
         "security": [],
         "requestBody": {
