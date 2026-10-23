@@ -112,7 +112,7 @@ Verified on 2026-10-23 with gherkin-ai 3.2.0, in the official Linux images (Dock
 | NestJS 11 (TypeScript, Prisma 6): build, tests and runtime integration (IT1–IT7 and the HTTP API) | `node:24-bookworm` | pass | 555 s |
 | Production image: `docker build`, start against PostgreSQL and RabbitMQ, liveness `/health` and readiness `/health/ready` answer 200 | `Dockerfile` | pass | included above |
 
-CLI checks with 3.2.0: `ghk lint` 73/100, `ghk validate` passes, and `ghk converge` 58% (specification quality, scenario coverage, contracts, architecture policy and traceability; run it for the breakdown).
+CLI checks with 3.2.0: `ghk lint` 78/100, `ghk validate` passes, and `ghk converge` 59% (specification quality, scenario coverage, contracts, architecture policy and traceability; run it for the breakdown).
 
 The same recipes run in the gherkin-ai CI for every supported stack. The method and the full results are in the [evaluation report](https://github.com/FennerEduardo/gherkin-ai-cli/blob/main/docs/EVALUATION_REPORT.md).
 
