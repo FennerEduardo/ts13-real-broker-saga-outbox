@@ -1,0 +1,356 @@
+{
+  "version": "2",
+  "cliVersion": "3.2.1",
+  "features": {
+    "features/real_broker_outbox.feature": {
+      "checksum": "2199050d8c7472e0ce8a75bbeb77f1da2031edfd113cc2a25b650ed879e268f4",
+      "contracts": {
+        "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117",
+        "contracts/real-broker-outbox/openapi.json": "315e10095c9fe589afa043ce3511d56d93e655c7f3c6b85dceabc943f5f069e3",
+        "openapi.json": "7d6ce8419d84a384f7ddd5006e3b416cebf6716b2b2066e04f4a4b6745e576a7",
+        "contracts.ts": "bb8f66b6caf944da9d7089a12d0bbb248666a2cbaae6c0a051bcbc3e52075d89",
+        "contracts/real-broker-outbox/asyncapi.json": "51754a3c46ff67410ac876b8c8241c173ed41ccef95c612443af03bb4d4a6edc",
+        "asyncapi.json": "a0d7e97ade81eb4d270a64a0ec4d739e1ac92d9854903201d772f34c418170c9"
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "filePath": ".dockerignore",
+      "type": "test",
+      "checksum": "24a2d166089e691663ae1f8440d87dcff0d08b861e09b4becd5d1c8d048c8fae",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": ".env.example",
+      "type": "config",
+      "checksum": "07c0522c4dfb123392dc00c048b6b6f754a8b8b006f325e78c16f1833d893ab9",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "ADR-001-architecture-decisions.md",
+      "type": "other",
+      "checksum": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "asyncapi.json",
+      "type": "contract",
+      "checksum": "a0d7e97ade81eb4d270a64a0ec4d739e1ac92d9854903201d772f34c418170c9",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "contracts.ts",
+      "type": "contract",
+      "checksum": "bb8f66b6caf944da9d7089a12d0bbb248666a2cbaae6c0a051bcbc3e52075d89",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md",
+      "type": "other",
+      "checksum": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "contracts/real-broker-outbox/asyncapi.json",
+      "type": "contract",
+      "checksum": "51754a3c46ff67410ac876b8c8241c173ed41ccef95c612443af03bb4d4a6edc",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "contracts/real-broker-outbox/openapi.json",
+      "type": "openapi",
+      "checksum": "315e10095c9fe589afa043ce3511d56d93e655c7f3c6b85dceabc943f5f069e3",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "cucumber.js",
+      "type": "test",
+      "checksum": "c26c8fcfc25e83d0713b8d30a381a69d17e7f8ed37100c40d245ffd762600697",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "docker-compose.yml",
+      "type": "config",
+      "checksum": "1d6a7bc4299298213d2163aa2558811ee9fbeab0402cd73c7d802334173788d6",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "Dockerfile",
+      "type": "test",
+      "checksum": "ee4ab0da1eef85e8a03bfda1172eae71a3483c61570b2becb026289f0bac88f2",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "features/real_broker_outbox.feature",
+      "type": "other",
+      "checksum": "2199050d8c7472e0ce8a75bbeb77f1da2031edfd113cc2a25b650ed879e268f4",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "fixtures.ts",
+      "type": "fixture",
+      "checksum": "cf356ede93bcd0cc9e5918c7cf101b9d5327dbdae3c36cabdbd3a7059eb3215f",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "jest.config.js",
+      "type": "test",
+      "checksum": "456021a6d978206c28abfd7b4ae4925a867b1626edd7515309877700831809f4",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "jest.integration.config.js",
+      "type": "test",
+      "checksum": "33884f0f1fdd1199be1d8a790765b6ec5b411aa9df06f28a7bfc94273209eff8",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "openapi.json",
+      "type": "openapi",
+      "checksum": "7d6ce8419d84a384f7ddd5006e3b416cebf6716b2b2066e04f4a4b6745e576a7",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "package.json",
+      "type": "config",
+      "checksum": "f3887e7cb579cb38e75ad2c4b66b4dd33453c276cd7ba063bbf5499e5c364687",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "prisma/schema.prisma",
+      "type": "other",
+      "checksum": "bbdb02a51c82e42074d201e0997a9333edc3e1045ded2272817bb8f788261064",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "prompts/backend-agent.md",
+      "type": "prompt",
+      "checksum": "b43c3356a44dfb62f23a921f1fcf2a021c89ca0115b7354f6d24700ce957deb6",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "prompts/domain-agent.md",
+      "type": "prompt",
+      "checksum": "78c10dda24f8d73d46612367a2abaa8fec3dda4b818ab3b27af2ddc999072069",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "prompts/qa-agent.md",
+      "type": "prompt",
+      "checksum": "950ffecdb6a023d04308bd8b6eb0bd8dcea55120949ac3ecb8c5fa0daa815182",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "seed.sql",
+      "type": "fixture",
+      "checksum": "e344dadd3d4b889d8ce58646fc5613196f3aad1aa77d5da86322384f084b0fdd",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/app.module.ts",
+      "type": "test",
+      "checksum": "1d518ae0ecb19c455fdda155f39d83da7877c62412784583845cca9d7d137a95",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/auth/jwt-tenant.guard.ts",
+      "type": "test",
+      "checksum": "1d0325fc16554059ea85af84e9ae3137b42c101273b3b2c90cab29e578fc87ad",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/auth/jwt.ts",
+      "type": "test",
+      "checksum": "07db0c61a52420a9c6a7f8809ef966c8b3f4a51d8d55d20df26a57d0aa366b7a",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/infrastructure/multitenancy/tenant.storage.ts",
+      "type": "test",
+      "checksum": "09819f6dfb6c404979fcb90f286c74a398faf0f5adbbe64bb54c17279d3a9d33",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/main.ts",
+      "type": "test",
+      "checksum": "a41749b02f03bfb845b683567632ead58f3b3f272b8c13af680b713fa20c4692",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/persistence/verificaciondeoutboxpatternyreduplicacionconrabbitmqreal.repository.ts",
+      "type": "other",
+      "checksum": "1791917df1a1f8d9b335768287441a6d41f1cdc94c0008b900526467d1a900d4",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/prisma/prisma.service.ts",
+      "type": "test",
+      "checksum": "d948ce80a568086fb8f9989cc8174634ed6f62ccd0ed7ee8a037ec81ec71eb95",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/broker.ts",
+      "type": "test",
+      "checksum": "091f9205a32ad3ddcba877bb0a27153b28e0254bd86b86b3fc66b662dde14ad8",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/command-service.ts",
+      "type": "test",
+      "checksum": "2eed730a718447191db2c5cbd6ee6862b0fb6fa805d9a2595c3ae219f6619f3d",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/inbox-consumer.ts",
+      "type": "test",
+      "checksum": "26d6a1e1a55df645ae981184c67684830220ef6aa62e11385af4e2ca884672ea",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/index.ts",
+      "type": "test",
+      "checksum": "4ebaa60432adad597200b0b234230edd23f26aac818db06c41f0fa71267e48cb",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/otel.ts",
+      "type": "test",
+      "checksum": "1f5c7dee9f126f6c7ce4a4ae787224ffdd3874784190aeee6862af2a76466526",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/outbox-relay.ts",
+      "type": "test",
+      "checksum": "edc22e6f853e656fe848832fa7731b634b4b6857c4027db0d474dda53fdbeb52",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/runtime.module.ts",
+      "type": "test",
+      "checksum": "486c75264125b98562132e1ccb80e10e9061c818dc9710ee6ce668207b9dde76",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/saga.ts",
+      "type": "test",
+      "checksum": "f6200104da1c78817893f2c6a52e4c58367c83059e423a39e4747a81421e698b",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/schema.ts",
+      "type": "test",
+      "checksum": "0bbb8b670d44558bc5a97691265540380397de23680b4fa9c12eba2f88800255",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/runtime/telemetry.ts",
+      "type": "test",
+      "checksum": "9beabb68022b6ebb1f9470dd274713eec766f1840b650d22990a660ced9f6904",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real/domain/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.aggregate.spec.ts",
+      "type": "test",
+      "checksum": "ee934857f5efd6b51ba939c757b45e9d48f232f6827c9a580ba35e4717bfebe8",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real/domain/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.aggregate.ts",
+      "type": "test",
+      "checksum": "869d6407c50aed2a4193bfd8c3e4674f1d6e45ac2da141a1ba366d55aad78992",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.controller.ts",
+      "type": "test",
+      "checksum": "af7051fd91180ab158707da85ceb28757285aca5013ecee592e2f4670d75de2c",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "src/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.module.ts",
+      "type": "test",
+      "checksum": "001b9f3ae437389293c371fe7fc16adb32443604c4c63104020eeeefe7514564",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "test/integration/runtime.int-spec.ts",
+      "type": "test",
+      "checksum": "4057db9af64119c2f99cc463a721b56c85f24a868931c49c6bef6edead846986",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "test/integration/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.http.int-spec.ts",
+      "type": "test",
+      "checksum": "051eebaae352d2e1ec6e646f6a0e1874ff8d5059e74ee7eac7dded5e5ef1f8f1",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "test/steps/verificacion-de-outbox-pattern-y-reduplicacion-con-rabbit-mq-real.steps.ts",
+      "type": "test",
+      "checksum": "892ff28e7ace19413ca48e0c0cfcc901ad13e988c99005140553bea35a8eea7e",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "tsconfig.build.json",
+      "type": "test",
+      "checksum": "cca65441174fe56cd889690dc8fe916f176597b99c8d2fcc29395b987992257e",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    },
+    {
+      "filePath": "tsconfig.json",
+      "type": "test",
+      "checksum": "3d5f419774b303fe446cb8d9f4ba70123461288769a27275f042de6cb70d52a1",
+      "feature": "features/real_broker_outbox.feature",
+      "generatedAt": "2026-10-25T05:42:54.558Z"
+    }
+  ],
+  "executions": []
+}

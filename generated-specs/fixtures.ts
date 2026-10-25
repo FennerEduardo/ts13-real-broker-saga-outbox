@@ -6,15 +6,13 @@
 
 export interface VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealFixture {
   id: string;
-  outbox: string;
-  cola: string;
+
 }
 
 export function createVerificacionDeOutboxPatternYReduplicacionConRabbitMqRealFixture(): VerificacionDeOutboxPatternYReduplicacionConRabbitMqRealFixture {
   return {
     id: 'f47ac10b-58cc-4372-a567-0e02b2c3d479',
-    outbox: 'test_value',
-    cola: 'test_value',
+
   };
 }
 
