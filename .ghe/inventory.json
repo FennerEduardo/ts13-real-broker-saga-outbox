@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "cliVersion": "3.2.1",
+  "cliVersion": "3.2.2",
   "features": {
     "features/real_broker_outbox.feature": {
       "checksum": "2199050d8c7472e0ce8a75bbeb77f1da2031edfd113cc2a25b650ed879e268f4",
@@ -8,7 +8,7 @@
         "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117",
         "contracts/real-broker-outbox/openapi.json": "315e10095c9fe589afa043ce3511d56d93e655c7f3c6b85dceabc943f5f069e3",
         "openapi.json": "7d6ce8419d84a384f7ddd5006e3b416cebf6716b2b2066e04f4a4b6745e576a7",
-        "contracts.ts": "bb8f66b6caf944da9d7089a12d0bbb248666a2cbaae6c0a051bcbc3e52075d89",
+        "contracts.ts": "33f0d8bf6764c9da44136e10dbc415dfd97254b347886a34a089d002c3f510fc",
         "contracts/real-broker-outbox/asyncapi.json": "51754a3c46ff67410ac876b8c8241c173ed41ccef95c612443af03bb4d4a6edc",
         "asyncapi.json": "a0d7e97ade81eb4d270a64a0ec4d739e1ac92d9854903201d772f34c418170c9"
       }
@@ -46,9 +46,9 @@
     {
       "filePath": "contracts.ts",
       "type": "contract",
-      "checksum": "bb8f66b6caf944da9d7089a12d0bbb248666a2cbaae6c0a051bcbc3e52075d89",
+      "checksum": "33f0d8bf6764c9da44136e10dbc415dfd97254b347886a34a089d002c3f510fc",
       "feature": "features/real_broker_outbox.feature",
-      "generatedAt": "2026-10-25T05:42:54.558Z"
+      "generatedAt": "2026-10-30T20:48:38.690Z"
     },
     {
       "filePath": "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md",
