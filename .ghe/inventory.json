@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "cliVersion": "3.2.2",
+  "cliVersion": "3.3.0",
   "features": {
     "features/real_broker_outbox.feature": {
       "checksum": "2199050d8c7472e0ce8a75bbeb77f1da2031edfd113cc2a25b650ed879e268f4",
@@ -8,7 +8,7 @@
         "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md": "51c8fbede9a49193d7e4bdac4436c085ab5720bcfab2735267e584321ce38117",
         "contracts/real-broker-outbox/openapi.json": "315e10095c9fe589afa043ce3511d56d93e655c7f3c6b85dceabc943f5f069e3",
         "openapi.json": "7d6ce8419d84a384f7ddd5006e3b416cebf6716b2b2066e04f4a4b6745e576a7",
-        "contracts.ts": "33f0d8bf6764c9da44136e10dbc415dfd97254b347886a34a089d002c3f510fc",
+        "contracts.ts": "61e2988eb40aeb7d098c278cc0e1ed9e8cd460c651a66755295eb695c3c93338",
         "contracts/real-broker-outbox/asyncapi.json": "51754a3c46ff67410ac876b8c8241c173ed41ccef95c612443af03bb4d4a6edc",
         "asyncapi.json": "a0d7e97ade81eb4d270a64a0ec4d739e1ac92d9854903201d772f34c418170c9"
       }
@@ -25,9 +25,9 @@
     {
       "filePath": ".env.example",
       "type": "config",
-      "checksum": "07c0522c4dfb123392dc00c048b6b6f754a8b8b006f325e78c16f1833d893ab9",
+      "checksum": "78951dc3e4b344aabf27190885ef301a3f3a37a31da5e05a2cdffae19635d6b7",
       "feature": "features/real_broker_outbox.feature",
-      "generatedAt": "2026-10-25T05:42:54.558Z"
+      "generatedAt": "2026-11-03T13:49:01.242Z"
     },
     {
       "filePath": "ADR-001-architecture-decisions.md",
@@ -46,9 +46,9 @@
     {
       "filePath": "contracts.ts",
       "type": "contract",
-      "checksum": "33f0d8bf6764c9da44136e10dbc415dfd97254b347886a34a089d002c3f510fc",
+      "checksum": "61e2988eb40aeb7d098c278cc0e1ed9e8cd460c651a66755295eb695c3c93338",
       "feature": "features/real_broker_outbox.feature",
-      "generatedAt": "2026-10-30T20:48:38.690Z"
+      "generatedAt": "2026-11-03T13:49:01.242Z"
     },
     {
       "filePath": "contracts/real-broker-outbox/ADR-VerificacionDeOutboxPatternYReduplicacionConRabbitMqReal.md",
@@ -81,9 +81,9 @@
     {
       "filePath": "docker-compose.yml",
       "type": "config",
-      "checksum": "1d6a7bc4299298213d2163aa2558811ee9fbeab0402cd73c7d802334173788d6",
+      "checksum": "e3e1bec8682b15a3dbf46ccb9949e8724f947666fa2f981e6a2c94b95e1ead1c",
       "feature": "features/real_broker_outbox.feature",
-      "generatedAt": "2026-10-25T05:42:54.558Z"
+      "generatedAt": "2026-11-03T13:49:01.242Z"
     },
     {
       "filePath": "Dockerfile",
@@ -137,9 +137,9 @@
     {
       "filePath": "prisma/schema.prisma",
       "type": "other",
-      "checksum": "bbdb02a51c82e42074d201e0997a9333edc3e1045ded2272817bb8f788261064",
+      "checksum": "7f210b88c9c7e968c4cab65991870e7697ea37b9da0f3ec645b98998fbc7b7b7",
       "feature": "features/real_broker_outbox.feature",
-      "generatedAt": "2026-10-25T05:42:54.558Z"
+      "generatedAt": "2026-11-03T13:49:01.242Z"
     },
     {
       "filePath": "prompts/backend-agent.md",
